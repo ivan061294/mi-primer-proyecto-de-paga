@@ -1,0 +1,14 @@
+INSERT INTO employees (name, lastname, care) VALUES ('KEVYN', 'ESTRADA', 'SUPERVISOR');
+INSERT INTO employees (name, lastname, care) VALUES ('CARLOS', 'HUAMACCTO', 'SUPERVISOR');
+INSERT INTO employees (name, lastname, care) VALUES ('APRIL', 'ESTRADA', 'SUPERVISOR');
+INSERT INTO employees (name, lastname, care) VALUES ('ANTONIO', 'ESTRADA', 'SUPERVISOR');
+INSERT INTO employees (name, lastname, care) VALUES ('UMPA', 'LUMPA', 'COLABORADOR');
+INSERT INTO employees (name, lastname, care) VALUES ('UMPA', 'LUMPA 1', 'COLABORADOR');
+INSERT INTO employees (name, lastname, care) VALUES ('UMPA', 'LUMPA 2', 'COLABORADOR');
+INSERT INTO employees (name, lastname, care) VALUES ('UMPA', 'LUMPA 3', 'COLABORADOR');
+INSERT INTO employees (name, lastname, care) VALUES ('UMPA', 'LUMPA 4', 'COLABORADOR');
+INSERT INTO employees (name, lastname, care) VALUES ('UMPA', 'LUMPA 5', 'COLABORADOR');
+INSERT INTO employees (name, lastname, care) VALUES ('UMPA', 'LUMPA 6', 'COLABORADOR');
+INSERT INTO employees (name, lastname, care) VALUES ('UMPA', 'LUMPA 7', 'COLABORADOR');
+INSERT INTO employees (name, lastname, care) VALUES ('UMPA', 'LUMPA 8', 'COLABORADOR');
+INSERT INTO employees (name, lastname, care) VALUES ('UMPA', 'LUMPA 9', 'COLABORADOR');

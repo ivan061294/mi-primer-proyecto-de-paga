@@ -1,0 +1,15 @@
+CREATE TABLE invoices (
+	id            INTEGER       NOT NULL AUTO_INCREMENT COMMENT 'identificador de la factura',
+	employee_id   INTEGER       NOT NULL COMMENT 'identificador del vendedor',
+	customer_id   INTEGER       NOT NULL COMMENT 'identificador del cliente',
+	quotation_id  INTEGER       NOT NULL COMMENT 'identificador de la cotizacion',
+	contact       VARCHAR(80)   NULL     COMMENT 'nombre de la persona de contacto',
+	status        VARCHAR(20)   NOT NULL COMMENT 'estado de la factura (E: EMITIDO, A: APROVADO, O:OBSERVADO)',
+	currency      VARCHAR(3)    NOT NULL COMMENT 'tipo de moneda (PEN, USD)',
+	total         DECIMAL(10,2) NOT NULL COMMENT 'precio total de la factura',
+	regdate       DATETIME      NOT NULL COMMENT 'fecha de la factura',
+	observation   VARCHAR(200)  NULL     COMMENT 'observacion de la sunat',
+	xmlfile       INTEGER       NULL     COMMENT 'archivo xml a enviar sin firma',
+	xmlfile_sign  INTEGER       NULL     COMMENT 'archivo xml firmado enviado a la sunat',
+	xmlfile_sunat INTEGER       NULL     COMMENT 'archivo xml devuelto por la sunat',
+	CONSTRAINT pk_invoice PRIMARY KEY (id));

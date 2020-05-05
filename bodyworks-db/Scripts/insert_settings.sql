@@ -1,0 +1,1 @@
+INSERT INTO settings (name, value, regdate) VALUES ('DOLLAR_PRICE', '3.34', NOW());

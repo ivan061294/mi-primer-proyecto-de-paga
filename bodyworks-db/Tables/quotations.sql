@@ -1,0 +1,15 @@
+CREATE TABLE quotations (
+	id          INTEGER       NOT NULL AUTO_INCREMENT COMMENT 'identificador de la cotizacion',
+	employee_id INTEGER       NOT NULL COMMENT 'identificador del vendedor',
+	customer_id INTEGER       NOT NULL COMMENT 'identificador del cliente',
+	contact     VARCHAR(80)   NULL     COMMENT 'nombre de la persona de contacto',
+	status      VARCHAR(20)   NOT NULL COMMENT 'estado de la cotizacion (P: PENDIENTE, A: ACEPTADO, R: RECHAZADO)',
+	currency    VARCHAR(3)    NOT NULL COMMENT 'tipo de moneda (PEN, USD)',
+	total       DECIMAL(10,2) NOT NULL COMMENT 'precio total de la cotizacion',
+	brand       VARCHAR(80)   NULL     COMMENT 'marca de la unidad vehiculo',
+	model       VARCHAR(80)   NULL     COMMENT 'modelo de la unidad vehiculo',
+	plate       VARCHAR(80)   NULL     COMMENT 'placa de la unidad vehiculo',
+	serie       VARCHAR(80)   NULL     COMMENT 'serie de la unidad vehiculo',
+	color       VARCHAR(80)   NULL     COMMENT 'color de la unidad vehiculo',
+	regdate     DATETIME      NOT NULL COMMENT 'fecha de la cotizacion',
+	CONSTRAINT pk_quotation PRIMARY KEY (id));

@@ -1,0 +1,2 @@
+CREATE TABLE users (username, email, password, createtime) VALUES ('kevyn', 'kevyn@com', '1234', now());
+CREATE TABLE users (username, email, password, createtime) VALUES ('carlos', 'carlos@com', '1234', now());

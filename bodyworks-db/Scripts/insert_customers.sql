@@ -1,0 +1,2 @@
+INSERT INTO customers (fullname, doctype, docnum, address) VALUES ('MOTORED SA', 'RUC', '20543265056', 'Av. Via de Evitamiento Nro. 1980');
+INSERT INTO customers (fullname, doctype, docnum, address) VALUES ('TRITON TRADING SA', 'RUC', '20535936669', 'Car. Panamericana Sur Km. 17.5 Lote. 31 Z.I. Lotizacion la Concordia (Altura Paradero Peatonal la Capilla)');

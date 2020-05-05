@@ -1,0 +1,10 @@
+INSERT INTO servicesupplie (service_id, supplie_id, relation, rank) values (1, 4, 3, 1);
+INSERT INTO servicesupplie (service_id, supplie_id, relation, rank) values (1, 5, 4, 1);
+INSERT INTO servicesupplie (service_id, supplie_id, relation, rank) values (1, 6, 2, 1);
+INSERT INTO servicesupplie (service_id, supplie_id, relation, rank) values (1, 7, 4, 1);
+INSERT INTO servicesupplie (service_id, supplie_id, relation, rank) values (1, 8, 5, 1);
+INSERT INTO servicesupplie (service_id, supplie_id, relation, rank) values (5, 4, 3, 1);
+INSERT INTO servicesupplie (service_id, supplie_id, relation, rank) values (5, 5, 4, 1);
+INSERT INTO servicesupplie (service_id, supplie_id, relation, rank) values (5, 6, 2, 1);
+INSERT INTO servicesupplie (service_id, supplie_id, relation, rank) values (5, 7, 4, 1);
+INSERT INTO servicesupplie (service_id, supplie_id, relation, rank) values (5, 8, 5, 1);

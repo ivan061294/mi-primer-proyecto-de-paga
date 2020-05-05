@@ -1,0 +1,10 @@
+.table-bordered-bw th, .table-bordered-bw td {
+    border: 1px solid #c2c2c2!important;
+    #border: 1px solid #a8d6ff!important;
+}
+.table-bordered-bw th {
+    background-color: #d6f8ff;
+}
+.table-bordered-bw .no-border {
+    border-width: 0px!important;
+}
